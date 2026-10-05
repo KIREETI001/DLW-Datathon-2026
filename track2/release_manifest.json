@@ -1,0 +1,13 @@
+{
+  "submission": 2756,
+  "public_PR_AUC": 0.189,
+  "files": {
+    "model.pkl": "c459d365a97c0dd2ab6f0fc1e664fe2cdfb6170b893968343aec5150f874c57d",
+    "submission.csv": "7b3000d15f0d23489a0b2cbecbf2a2abd79adf858ab074e98c30b5f4644aad59",
+    "prediction.ipynb": "3f6addd1abadc0d89ca5a77d8b429dfbe7abee9fcc70094b204de5d4f21177b1",
+    "requirements.txt": "fa42b2a11c2af2ee73e6e05ce54a108b1dc89fffc19830883f65b96916a266c9"
+  },
+  "peer_receipt_sha256": "169507db33c72a2d35a0967b7ef1dd9a7222f7746d238aa11f36715fd0ba604f",
+  "linux_receipt_sha256": "095b018f47c73600c4cbc3a2d68a6da91eb7ebfd24a4cb00fa6793a231525f7e",
+  "CSV_only_uploaded": true
+}

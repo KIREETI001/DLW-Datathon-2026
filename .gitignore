@@ -1,3 +1,36 @@
-.playwright-mcp/
+# Local environments and caches
+.venv*/
+venv/
+env/
 __pycache__/
+*.py[cod]
 .ipynb_checkpoints/
+.pytest_cache/
+.ruff_cache/
+catboost_info/
+.playwright-mcp/
+.DS_Store
+Thumbs.db
+
+# Local credentials and editor state
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+
+# Newly generated predictions and notebook execution artifacts
+/predictions.csv
+/track2/predictions.csv
+/track2/test.csv
+/notebooks/outputs/*
+!/notebooks/outputs/0[1-9]_*.png
+!/notebooks/outputs/verification_receipt.json
+!/notebooks/outputs/fresh_process_receipt.json
+
+# Research and archives do not belong to this final release
+/archive/
+/archives/
+/research/
+*.zip
+*.log

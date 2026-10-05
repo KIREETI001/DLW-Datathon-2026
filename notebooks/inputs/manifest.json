@@ -1,0 +1,70 @@
+{
+  "train.csv": {
+    "source": "C:\\Users\\Kiree\\Desktop\\Projects\\Hackathons\\DLW Datathon 2026\\Track 2\\data\\Track 2 Training Dataset.csv",
+    "sha256": "94687430b8c748e575273ddf1d28efe97f8bb84faabe5da777c4f7fe178502ce"
+  },
+  "test.csv": {
+    "source": "C:\\Users\\Kiree\\Desktop\\Projects\\Hackathons\\DLW Datathon 2026\\Track 2\\data\\Track 2 Testing Dataset.csv",
+    "sha256": "fb6537f4378ce61d6491a005200af4b9f15205b30978ed829d6ce7be590fccd8"
+  },
+  "frozen_2756.pkl": {
+    "source": "C:\\Users\\Kiree\\Desktop\\Projects\\Hackathons\\DLW Datathon 2026\\DLW Datathon 2026 - FInal Submission\\upload_2756\\model.pkl",
+    "sha256": "c459d365a97c0dd2ab6f0fc1e664fe2cdfb6170b893968343aec5150f874c57d"
+  },
+  "frozen_submission.csv": {
+    "source": "C:\\Users\\Kiree\\Desktop\\Projects\\Hackathons\\DLW Datathon 2026\\Track 2\\research\\podium_v1\\baseline\\release_2756\\submission.csv",
+    "sha256": "7b3000d15f0d23489a0b2cbecbf2a2abd79adf858ab074e98c30b5f4644aad59"
+  },
+  "confirmation_oof.npz": {
+    "source": "C:\\Users\\Kiree\\Desktop\\Projects\\Hackathons\\DLW Datathon 2026\\Track 2\\research\\podium_v1\\contextual_anomaly\\fold_consistent_followup\\confirmation_oof.npz",
+    "sha256": "be47f6a9a2363b9c607e28242a09335e91775d283ad8b35b8b31ea0d594b9efa"
+  },
+  "confirmation_results.json": {
+    "source": "C:\\Users\\Kiree\\Desktop\\Projects\\Hackathons\\DLW Datathon 2026\\Track 2\\research\\podium_v1\\contextual_anomaly\\fold_consistent_followup\\confirmation_results.json",
+    "sha256": "ce8c04a4a2b58c6ff4f4e5c8b66c68a19220f6308b56b70974dc7604b7823eb1"
+  },
+  "public_result.json": {
+    "source": "C:\\Users\\Kiree\\Desktop\\Projects\\Hackathons\\DLW Datathon 2026\\Track 2\\research\\podium_v1\\contextual_anomaly\\fold_consistent_followup\\candidate_release\\public_result.json",
+    "sha256": "04c5fc5a7d01b919afb4cd4732e0acfefd4ff42dc71affaa98410e9180ca2d84"
+  },
+  "linux_receipt.json": {
+    "source": "C:\\Users\\Kiree\\Desktop\\Projects\\Hackathons\\DLW Datathon 2026\\Track 2\\research\\podium_v1\\contextual_anomaly\\fold_consistent_followup\\candidate_release\\linux_verification\\linux_receipt.json",
+    "sha256": "095b018f47c73600c4cbc3a2d68a6da91eb7ebfd24a4cb00fa6793a231525f7e"
+  },
+  "technical_report_2756.pdf": {
+    "source": "C:\\Users\\Kiree\\Desktop\\Projects\\Hackathons\\DLW Datathon 2026\\DLW Datathon 2026 - FInal Submission\\upload_2756\\technical_report_2756.pdf",
+    "sha256": "534c155102a5a006b40b9165703990e6b4b8c42b54402359d8812acf9bb62150"
+  },
+  "contextual_source.py": {
+    "source": "C:\\Users\\Kiree\\Desktop\\Projects\\Hackathons\\DLW Datathon 2026\\Track 2\\research\\podium_v1\\contextual_anomaly\\core.py",
+    "sha256": "4acc8630af13fb40cd49717f4296ef838891704be1bc99dd58568919d50231ee"
+  },
+  "tan_source.py": {
+    "source": "C:\\Users\\Kiree\\Desktop\\Projects\\Hackathons\\DLW Datathon 2026\\Track 2\\research\\podium_v1\\tan\\tan_core.py",
+    "sha256": "5c832124cb605e223fc9b14ec286a1a698e7338a3edb1bc2ab838a9b9d40dca8"
+  },
+  "base_training_source.py": {
+    "source": "C:\\Users\\Kiree\\Desktop\\Projects\\Hackathons\\DLW Datathon 2026\\Track 2\\train_model.py",
+    "sha256": "9fcd0c301ee277e4131adaf8ff32f39ad083338305b8b6a06405ed2325815cfe"
+  },
+  "repeat_37.npz": {
+    "source": "C:\\Users\\Kiree\\Desktop\\Projects\\Hackathons\\DLW Datathon 2026\\Track 2\\research\\podium_v1\\repeated_validation\\oof_seed37.npz",
+    "sha256": "cd7a5d6712a0f57bee7109aed9ff3b8a46507d0a8e03ed5c4492e9bbd45228ce"
+  },
+  "repeat_107.npz": {
+    "source": "C:\\Users\\Kiree\\Desktop\\Projects\\Hackathons\\DLW Datathon 2026\\Track 2\\research\\podium_v1\\repeated_validation\\oof_seed107.npz",
+    "sha256": "866f4d12b3b8c6636150f7fd9b3f59a10e86be20e3c1212f349aed1d1c611903"
+  },
+  "repeat_211.npz": {
+    "source": "C:\\Users\\Kiree\\Desktop\\Projects\\Hackathons\\DLW Datathon 2026\\Track 2\\research\\podium_v1\\repeated_validation\\oof_seed211.npz",
+    "sha256": "8bf11203cc0d866a818d66afb434bc1fec37f435b749ecbf2c9a6e2a831cc83e"
+  },
+  "repeat_503.npz": {
+    "source": "C:\\Users\\Kiree\\Desktop\\Projects\\Hackathons\\DLW Datathon 2026\\Track 2\\research\\podium_v1\\repeated_validation\\oof_seed503.npz",
+    "sha256": "ea6ffcb7fd1db71b7fb5a6f83bcf0738ffea2d1f652d48d535235ddd605c1102"
+  },
+  "repeat_1009.npz": {
+    "source": "C:\\Users\\Kiree\\Desktop\\Projects\\Hackathons\\DLW Datathon 2026\\Track 2\\research\\podium_v1\\repeated_validation\\oof_seed1009.npz",
+    "sha256": "1fd5ee38a34398e5068de797c69c3e936a3d7d4d2b660d6fefa1139e14af88cb"
+  }
+}

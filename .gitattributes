@@ -1,0 +1,20 @@
+# Preserve exact submission bytes, regardless of core.autocrlf.
+* text=auto
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.md text eol=lf
+*.html text eol=lf
+*.py text eol=lf
+*.json text eol=lf
+*.txt text eol=lf
+*.csv -text whitespace=cr-at-eol
+*.ipynb -text whitespace=cr-at-eol
+*.pkl binary
+*.npz binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.pptx binary
+track2/requirements.txt -text whitespace=cr-at-eol
+# Copied notebook inputs are hash-bound historical evidence.
+notebooks/inputs/** -text whitespace=cr-at-eol

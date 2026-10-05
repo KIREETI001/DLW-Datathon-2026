@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "rows": 12000,
+  "max_absolute_difference": 0.0,
+  "fresh_process": true,
+  "CPU_only": true,
+  "fit_methods_blocked": true,
+  "Python_connections_blocked": true,
+  "shuffled_no_ID": true
+}

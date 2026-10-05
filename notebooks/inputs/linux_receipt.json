@@ -1,0 +1,68 @@
+{
+  "passed": true,
+  "verified_utc": "2026-10-03T16:11:25.032505+00:00",
+  "platform": "Linux-6.18.33.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "python": "3.12.13",
+  "versions": {
+    "numpy": "2.1.3",
+    "pandas": "2.2.3",
+    "scikit-learn": "1.5.2",
+    "scipy": "1.14.1",
+    "catboost": "1.2.10",
+    "nbformat": "5.11.1"
+  },
+  "source_hashes": {
+    "model.pkl": "c459d365a97c0dd2ab6f0fc1e664fe2cdfb6170b893968343aec5150f874c57d",
+    "prediction.ipynb": "3f6addd1abadc0d89ca5a77d8b429dfbe7abee9fcc70094b204de5d4f21177b1",
+    "requirements.txt": "fa42b2a11c2af2ee73e6e05ce54a108b1dc89fffc19830883f65b96916a266c9",
+    "submission.csv": "7b3000d15f0d23489a0b2cbecbf2a2abd79adf858ab074e98c30b5f4644aad59"
+  },
+  "source_unchanged": true,
+  "notebook_nbformat_valid": true,
+  "code_compiled": true,
+  "cases": [
+    {
+      "mode": "default",
+      "rows": 12000,
+      "max_absolute_difference": 1.1102230246251565e-16,
+      "seconds": 6.927057074,
+      "fresh_isolated_process": true,
+      "fit_blocked": true,
+      "Python_socket_connections_blocked": true,
+      "shuffled_no_ID": true
+    },
+    {
+      "mode": "environment",
+      "rows": 12000,
+      "max_absolute_difference": 1.1102230246251565e-16,
+      "seconds": 5.176027570000002,
+      "fresh_isolated_process": true,
+      "fit_blocked": true,
+      "Python_socket_connections_blocked": true,
+      "shuffled_no_ID": true
+    },
+    {
+      "mode": "single",
+      "rows": 1,
+      "max_absolute_difference": 0.0,
+      "seconds": 3.466152002000001,
+      "fresh_isolated_process": true,
+      "fit_blocked": true,
+      "Python_socket_connections_blocked": true,
+      "shuffled_no_ID": true
+    },
+    {
+      "mode": "smallbatch",
+      "rows": 37,
+      "max_absolute_difference": 5.204170427930421e-18,
+      "seconds": 3.7916624049999967,
+      "fresh_isolated_process": true,
+      "fit_blocked": true,
+      "Python_socket_connections_blocked": true,
+      "shuffled_no_ID": true
+    }
+  ],
+  "test_data_sha256": "fb6537f4378ce61d6491a005200af4b9f15205b30978ed829d6ce7be590fccd8",
+  "verifier_sha256": "e76ec023d873f076ca2fe361b1bf98d867a56b0d8ae5c892b4ec644d3fa53890",
+  "boundary": "Local Linux CPU notebook replay, Python connections blocked; not OS network isolation or organizer sandbox/public-score verification."
+}

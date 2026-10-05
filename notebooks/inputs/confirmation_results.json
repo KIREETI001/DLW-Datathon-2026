@@ -1,0 +1,159 @@
+{
+  "baseline2510": {
+    "rows": 20000,
+    "positives": 353,
+    "AP": 0.23633684480558112,
+    "PR_trapezoid": 0.23536919494608072,
+    "logloss": 0.07213764991219036,
+    "predicted_positive_mass": 351.50607944015366,
+    "fold_AP": [
+      0.22128370974685352,
+      0.3249970602231801,
+      0.15939730676449348,
+      0.24980967078488267,
+      0.2790664488802319
+    ],
+    "mean_fold_AP": 0.24691083927992832,
+    "slices": {
+      "complete": {
+        "rows": 19025,
+        "positives": 333,
+        "AP": 0.2307841090986919,
+        "PR_trapezoid": 0.22962489381887147,
+        "logloss": 0.07192707115933655,
+        "predicted_positive_mass": 334.2815129764261
+      },
+      "incomplete": {
+        "rows": 975,
+        "positives": 20,
+        "AP": 0.34210011120242245,
+        "PR_trapezoid": 0.3371049024283712,
+        "logloss": 0.07624663532043997,
+        "predicted_positive_mass": 17.22456646372759
+      },
+      "known_device": {
+        "rows": 18076,
+        "positives": 218,
+        "AP": 0.04925317121688286,
+        "PR_trapezoid": 0.04796216698740208,
+        "logloss": 0.061409158930815395,
+        "predicted_positive_mass": 214.5868027419047
+      },
+      "new_device": {
+        "rows": 1800,
+        "positives": 135,
+        "AP": 0.5112684375029308,
+        "PR_trapezoid": 0.5089835902356898,
+        "logloss": 0.18389009895210248,
+        "predicted_positive_mass": 135.23781531299738
+      }
+    },
+    "top200": {
+      "frauds": 85,
+      "precision": 0.425,
+      "recall": 0.24079320113314448
+    },
+    "ROC_AUC": 0.7839744002897602,
+    "Brier": 0.01504809561415573
+  },
+  "candidates": [
+    {
+      "spec": {
+        "name": "MEDIAN_0.2",
+        "kind": "MEDIAN",
+        "scale": 0.2
+      },
+      "metrics": {
+        "rows": 20000,
+        "positives": 353,
+        "AP": 0.2364934878513279,
+        "PR_trapezoid": 0.23552840643423054,
+        "logloss": 0.07213267789769812,
+        "predicted_positive_mass": 352.00591010482094,
+        "fold_AP": [
+          0.22207757772545542,
+          0.3259453430685592,
+          0.15946369279113698,
+          0.2523912577088659,
+          0.27897719289457357
+        ],
+        "mean_fold_AP": 0.24777101283771819,
+        "slices": {
+          "complete": {
+            "rows": 19025,
+            "positives": 333,
+            "AP": 0.2310161174491676,
+            "PR_trapezoid": 0.2298615558598589,
+            "logloss": 0.07193356674701293,
+            "predicted_positive_mass": 334.7867194631156
+          },
+          "incomplete": {
+            "rows": 975,
+            "positives": 20,
+            "AP": 0.34329128020434685,
+            "PR_trapezoid": 0.3382566939546903,
+            "logloss": 0.07601789804311933,
+            "predicted_positive_mass": 17.219190641705357
+          },
+          "known_device": {
+            "rows": 18076,
+            "positives": 218,
+            "AP": 0.049044266113702606,
+            "PR_trapezoid": 0.04777189271474523,
+            "logloss": 0.06140595088871569,
+            "predicted_positive_mass": 214.78367399208565
+          },
+          "new_device": {
+            "rows": 1800,
+            "positives": 135,
+            "AP": 0.512126603283668,
+            "PR_trapezoid": 0.5098495872325421,
+            "logloss": 0.18386643012815834,
+            "predicted_positive_mass": 135.54026399693169
+          }
+        },
+        "top200": {
+          "frauds": 84,
+          "precision": 0.42,
+          "recall": 0.23796033994334279
+        },
+        "ROC_AUC": 0.7843435215116206,
+        "Brier": 0.015052933696765046
+      },
+      "gain": 0.00015664304574677934,
+      "fold_gains": [
+        0.0007938679786018976,
+        0.0009482828453791226,
+        6.638602664349458e-05,
+        0.00258158692398322,
+        -8.925598565834303e-05
+      ],
+      "mean_fold_gain": 0.0008601735577898784,
+      "fold_wins": 4,
+      "scenario_gains": {
+        "unweighted_ordinary": 0.00015664304574677934,
+        "unweighted_class_normalized": 0.00015664304574677934,
+        "LR_mean3_sqrt_clip025_4_ordinary": -8.897085920656078e-05,
+        "LR_mean3_sqrt_clip025_4_class_normalized": -0.00011506063369554065,
+        "HGB_fixed_sqrt_clip025_4_ordinary": 8.087828020120202e-05,
+        "HGB_fixed_sqrt_clip025_4_class_normalized": 7.994393293542235e-05,
+        "device_night_ordinary": -5.9639804862565704e-05,
+        "device_night_class_normalized": -7.903210158027862e-05,
+        "device_country_ordinary": 0.00017874184826360828,
+        "device_country_class_normalized": 0.0001758312874893253,
+        "device_activity_ordinary": 6.152016413801809e-05,
+        "device_activity_class_normalized": 0.00013385537217280863,
+        "count_pair_ordinary": 0.0004308851612500608,
+        "count_pair_class_normalized": 0.00046295876985685824
+      },
+      "worst_scenario_gain": -0.00011506063369554065
+    }
+  ],
+  "seconds": 84.21899999999732,
+  "cache": {
+    "path": "C:\\Users\\Kiree\\Desktop\\Projects\\Hackathons\\DLW Datathon 2026\\Track 2\\research\\podium_v1\\baseline\\oof_1486_seed17_5fold.npz",
+    "sha256": "31545a7d23fd4f972816667a052af092c59c2fbd8292d79f4093c400d8ec4eed",
+    "seed": 17,
+    "folds": 5
+  }
+}
